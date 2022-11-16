@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <Header />
-      <Container fluid>
-        <section className="py-5 px-sm-2 px-md-3 px-lg-5">
+      <section className="py-5 px-sm-2 px-md-3 px-lg-5">
+        <Container fluid>
           <Row>
             <Col md={12} xl={6} className="align-self-center">
               <h1>
@@ -41,10 +41,47 @@ function App() {
               />
             </Col>
           </Row>
-
-
-        </section>
-      </Container>
+        </Container>
+      </section>
+      <div className="bg-bio-gray p-4 text-white text-center">
+        <Container fluid>
+          <Row>
+            <Col className="text-center">
+              <p>
+                <span className="h1">
+                  1246
+                </span>
+                <br />
+                <span className="text-uppercase">
+                  <b>pessoas atingidas</b>
+                </span>
+              </p>
+            </Col>
+            <Col className="text-center">
+              <p>
+                <span className="h1">
+                  56
+                </span>
+                <br />
+                <span className="text-uppercase">
+                  <b>palestras e cursos</b>
+                </span>
+              </p>
+            </Col>
+            <Col className="text-center">
+              <p>
+                <span className="h1">
+                  8
+                </span>
+                <br />
+                <span className="text-uppercase">
+                  <b>países</b>
+                </span>
+              </p>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </>
   );
 }

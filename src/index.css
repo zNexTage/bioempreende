@@ -24,6 +24,7 @@ code {
 :root {
   --bio-yellow: #feb209;
   --bio-dark-blue: #031222;
+  --bio-gray: #455A64;
 }
 
 .text-justify {
@@ -36,4 +37,8 @@ code {
 
 .bg-bio-dark-blue {
   background-color: var(--bio-dark-blue);
+}
+
+.bg-bio-gray {
+  background-color: var(--bio-gray);
 }
