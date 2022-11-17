@@ -46,8 +46,8 @@ function App() {
       <div className="bg-bio-gray p-4 text-white text-center">
         <Container fluid>
           <Row>
-            <Col className="text-center">
-              <p>
+            <Col sm={12} xl={4} className="text-center">
+              <p className="p-3 m-0">
                 <span className="h1">
                   1246
                 </span>
@@ -57,8 +57,8 @@ function App() {
                 </span>
               </p>
             </Col>
-            <Col className="text-center">
-              <p>
+            <Col sm={12} xl={4} className="text-center">
+              <p className="p-3 m-0">
                 <span className="h1">
                   56
                 </span>
@@ -68,8 +68,8 @@ function App() {
                 </span>
               </p>
             </Col>
-            <Col className="text-center">
-              <p>
+            <Col sm={12} xl={4} className="text-center">
+              <p className="p-3 m-0">
                 <span className="h1">
                   8
                 </span>
