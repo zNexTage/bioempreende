@@ -42,3 +42,7 @@ code {
 .bg-bio-gray {
   background-color: var(--bio-gray);
 }
+
+.text-bio-yellow {
+  color: var(--bio-yellow);
+}
