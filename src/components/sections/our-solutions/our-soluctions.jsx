@@ -1,7 +1,11 @@
 import { Col, Row } from "react-bootstrap";
 import HealthSpeeches from "../../../assets/images/health-speeches.svg";
 import Consultancy from "../../../assets/images/consultancy.svg";
+import SalesMarket4 from "../../../assets/images/sales-market-4.svg";
+import SmarthLeadership from "../../../assets/images/smart-leadership.svg";
 import style from "./our-soluctions.module.css";
+
+
 
 const OurSolutions = () => {
     return (
@@ -10,14 +14,22 @@ const OurSolutions = () => {
                 Nossas <span className="text-bio-yellow">soluções</span>
             </h2>
 
-            <Row>
-                <Col className="text-center" xl={6}>
+            <Row className="mb-3">
+                <Col
+                    className="text-center"
+                    sm={12}
+                    md={6}
+                    xl={6}>
                     <img
                         className={`${style.OurSoluctionsImg} w-100`}
                         alt="Ilustração de uma mulher discursando"
                         src={HealthSpeeches} />
                 </Col>
-                <Col xl={6}>
+                <Col
+                    sm={12}
+                    xl={6}
+                    md={6}
+                    className="mt-5 mt-md-0">
                     <h3 className="text-uppercase mb-3">
                         Palestras: Saúde <span className="text-bio-yellow">4.0</span>
                     </h3>
@@ -26,8 +38,14 @@ const OurSolutions = () => {
                     </p>
                 </Col>
             </Row>
-            <Row className="mt-5">
-                <Col xl={6}>
+
+            <Row className="mt-5 mb-3">
+                <Col
+                    className="mt-5 mt-md-0"
+                    xs={{ span: 12, order: 2 }}
+                    sm={{ span: 12, order: 2 }}
+                    xl={{ span: 6, order: 1 }}
+                    md={{ span: 6, order: 1 }}>
                     <h3 className="text-uppercase mb-3">
                         Consultoria e <span className="text-bio-yellow">transformação digital</span>
                     </h3>
@@ -35,11 +53,67 @@ const OurSolutions = () => {
                         Atuamos com consultoria para instituições públicas e privadas Levantamento dos gargalos e fragilidades das instituições e dos processos. E verificação de todas as possibilidades de aumento da eficiência, economia de recursos e melhoria dos serviços prestados ao cidadão através de soluções tecnológicas. Ofertas de cursos e capacitações necessárias para os membros da equipe e engajamento para garantir a plena utilização.
                     </p>
                 </Col>
-                <Col xl={6} className="text-center">
+                <Col
+                    xs={{ span: 12, order: 1 }}
+                    sm={{ span: 12, order: 1 }}
+                    xl={{ span: 6, order: 2 }}
+                    md={{ span: 6, order: 2 }}
+                    className="text-center">
                     <img
                         className={`${style.OurSoluctionsImg} w-100`}
                         alt="Ilustração de uma mulher discursando"
                         src={Consultancy} />
+                </Col>
+            </Row>
+
+            <Row className="mt-5 mb-3">
+                <Col
+                    className="text-center"
+                    sm={12}
+                    md={6}
+                    xl={6}>
+                    <img
+                        className={`${style.OurSoluctionsImg} w-100`}
+                        src={SalesMarket4} />
+                </Col>
+                <Col
+                    sm={12}
+                    xl={6}
+                    md={6}
+                    className="mt-5 mt-md-0">
+                    <h3 className="text-uppercase mb-3">
+                        Vendas no <span className="text-bio-yellow">mercado 4.0</span>
+                    </h3>
+                    <p className="text-justify fs-5">
+                        Quer expandir seu negócio de forma inteligente e eficiente? Temos as melhores soluções para empresas da área da saúde e Startups que vendem inovação. Conhecimento estruturado de forma objetiva e aplicável.
+                    </p>
+                </Col>
+            </Row>
+
+            <Row className="mt-5">
+                <Col
+                    className="mt-5 mt-md-0"
+                    xs={{ span: 12, order: 2 }}
+                    sm={{ span: 12, order: 2 }}
+                    xl={{ span: 6, order: 1 }}
+                    md={{ span: 6, order: 1 }}>
+                    <h3 className="text-uppercase mb-3">
+                        Liderança <span className="text-bio-yellow">inteligente</span>
+                    </h3>
+                    <p className="text-justify fs-5">
+                        Entenda os desafios e oportunidades que o novo mercado traz e guie seu time nesse caminho. Como criar estratégias claras, medir o progresso e implementar melhorias.
+                    </p>
+                </Col>
+                <Col
+                    xs={{ span: 12, order: 1 }}
+                    sm={{ span: 12, order: 1 }}
+                    xl={{ span: 6, order: 2 }}
+                    md={{ span: 6, order: 2 }}
+                    className="text-center">
+                    <img
+                        className={`${style.OurSoluctionsImg} w-100`}
+
+                        src={SmarthLeadership} />
                 </Col>
             </Row>
         </section>
