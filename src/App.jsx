@@ -6,6 +6,7 @@ import { Button, Col, Row } from "react-bootstrap";
 import { WHATSAPP_URL } from "./utils/consts";
 import AboutUs from "./components/sections/about-us";
 import CountsInfo from "./components/sections/counts-info";
+import OurSolutions from "./components/sections/our-solutions";
 
 
 function App() {
@@ -49,6 +50,8 @@ function App() {
       <CountsInfo />
 
       <AboutUs />
+
+      <OurSolutions />
     </>
   );
 }
