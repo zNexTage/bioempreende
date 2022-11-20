@@ -5,7 +5,7 @@ import { WHATSAPP_URL } from "../../../utils/consts";
 
 const Contact = () => {
     return (
-        <section className="mb-4 text-white">
+        <section className="mb-4 text-white" id="contact">
             <Row>
                 <Col
                     xl={6}

@@ -7,7 +7,7 @@ import style from "./about-us.module.css";
 
 const AboutUs = () => {
     return (
-        <section className="p-4">
+        <section className="p-4" id="about-us">
             <Row>
                 <Col
                     xs={{ span: 12, order: 2 }}
