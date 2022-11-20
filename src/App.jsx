@@ -7,6 +7,7 @@ import { WHATSAPP_URL } from "./utils/consts";
 import AboutUs from "./components/sections/about-us";
 import CountsInfo from "./components/sections/counts-info";
 import OurSolutions from "./components/sections/our-solutions";
+import Footer from "./components/footer";
 
 
 function App() {
@@ -52,6 +53,8 @@ function App() {
       <AboutUs />
 
       <OurSolutions />
+
+      <Footer />
     </>
   );
 }
