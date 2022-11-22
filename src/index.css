@@ -43,6 +43,10 @@ code {
   background-color: var(--bio-gray);
 }
 
+.bg-white {
+  background-color: #FFF;
+}
+
 .text-bio-yellow {
   color: var(--bio-yellow);
 }
