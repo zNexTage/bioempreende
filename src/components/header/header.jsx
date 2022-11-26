@@ -1,7 +1,6 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import BioEmpreendeLogo from "../../assets/images/bioempreende-logo.png";
-import BioEmpreendeLogoIcon from "../../assets/icons/bioempreende-logo-icon.png";
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import { WHATSAPP_URL } from '../../utils/consts';
 import Lottie from "lottie-react";
