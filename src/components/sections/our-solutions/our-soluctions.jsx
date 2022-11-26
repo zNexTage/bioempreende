@@ -61,7 +61,7 @@ const OurSolutions = () => {
                     className="text-center">
                     <img
                         className={`${style.OurSoluctionsImg} w-100`}
-                        alt="Ilustração de uma mulher discursando"
+                        alt="Ilustração de duas pessoas trabalhando juntas"
                         src={Consultancy} />
                 </Col>
             </Row>
@@ -74,6 +74,7 @@ const OurSolutions = () => {
                     xl={6}>
                     <img
                         className={`${style.OurSoluctionsImg} w-100`}
+                        alt="Ilustração de uma pessoa interagindo com um sistema de compras."
                         src={SalesMarket4} />
                 </Col>
                 <Col
@@ -112,7 +113,7 @@ const OurSolutions = () => {
                     className="text-center">
                     <img
                         className={`${style.OurSoluctionsImg} w-100`}
-
+                        alt="Ilustração de três pessoas conversando e trabalhando juntas."
                         src={SmarthLeadership} />
                 </Col>
             </Row>
