@@ -5,7 +5,7 @@ import Counter from "../../counter";
 const CountsInfo = () => {
 
     return (
-        <section className="bg-bio-gray p-4 text-white text-center">
+        <section className="bg-bio-yellow p-4 text-white text-center">
             <Container fluid>
                 <Row>
                     <Col sm={12} xl={4} className="text-center">
