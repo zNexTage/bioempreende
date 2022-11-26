@@ -39,7 +39,7 @@ const Header = () => {
                                 className="w-100 mb-0 mb-md-5 mb-lg-5" />
 
                             <p
-                                class="lead text-justify text-white mb-5">
+                                className="lead text-justify text-white mb-5">
                                 Somos uma consultoria estratégica que nasceu para fazer a sua empresa prosperar. Entregamos os mais avançados conhecimentos sobre vendas e desenvolvimento de negócios no mercado 4.0 de forma objetiva e aplicável.
                             </p>
                             <Button
