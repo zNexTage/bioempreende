@@ -27,19 +27,28 @@ const AboutUs = () => {
 
                     <Row className="mt-5">
                         <Col xl={4} md={4} sm={12} className="text-center mt-4">
-                            <img src={Knowledge} className={style.BioIcons} />
+                            <img
+                                alt=""
+                                src={Knowledge}
+                                className={style.BioIcons} />
                             <p className="fs-5 m-0 mt-2">
                                 Conhecimento
                             </p>
                         </Col>
                         <Col xl={4} md={4} sm={12} className="text-center mt-4">
-                            <img src={Strategy} className={style.BioIcons} />
+                            <img
+                                alt=""
+                                src={Strategy}
+                                className={style.BioIcons} />
                             <p className="fs-5 m-0 mt-2">
                                 Estratégia
                             </p>
                         </Col>
                         <Col xl={4} md={4} sm={12} className="text-center mt-4">
-                            <img src={Results} className={style.BioIcons} />
+                            <img
+                                alt=""
+                                src={Results}
+                                className={style.BioIcons} />
                             <p className="fs-5 m-0 mt-2">
                                 Resultados
                             </p>
