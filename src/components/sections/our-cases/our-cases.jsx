@@ -17,13 +17,14 @@ const OurCases = () => {
                         </p>
                     </Col>
                     <Col xl={12} className="mt-5">
-                        <Row>
+                        <Row className="text-center">
                             <Col
                                 className="p-3"
                                 sm={12}
                                 md={6}
                                 xl={6}>
                                 <img
+                                    alt="Logo LSI Tec"
                                     className={`${style.OurCasesImage} w-100`}
                                     src={LsiTecImg} />
                             </Col>
@@ -33,6 +34,7 @@ const OurCases = () => {
                                 md={6}
                                 xl={6}>
                                 <img
+                                    alt="Logo Incloude"
                                     className={`${style.OurCasesImage} w-100`}
                                     src={IncloudeImg} />
                             </Col>
