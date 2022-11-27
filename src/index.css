@@ -50,3 +50,7 @@ code {
 .text-bio-yellow {
   color: var(--bio-yellow);
 }
+
+.p-top{ /* must be equal to navbar height; */
+  padding-top: 56px;
+}

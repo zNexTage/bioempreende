@@ -5,7 +5,7 @@ import style from "./our-cases.module.css";
 
 const OurCases = () => {
     return (
-        <section id="our-cases" className="bg-bio-dark-blue p-4 text-white my-4">
+        <section id="our-cases" className="bg-bio-dark-blue px-4 pb-4 p-top text-white my-4">
             <Container fluid>
                 <h2 className="text-uppercase mb-4">
                     Nossos <span className="text-bio-yellow">cases</span>
