@@ -16,6 +16,7 @@ const Header = () => {
                 expand="md"
                 variant="dark"
                 className="p-2"
+                fixed="top"
                 collapseOnSelect >
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
@@ -30,7 +31,7 @@ const Header = () => {
             </Navbar>
 
             <section className="py-5 px-sm-2 px-md-3 px-lg-5 bg-bio-dark-blue">
-                <Container fluid>
+                <Container className='mt-5 mb-2' fluid>
                     <Row>
                         <Col sm={12} md={6} xl={6} className="align-self-center">
                             <img
