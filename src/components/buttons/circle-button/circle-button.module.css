@@ -1,0 +1,9 @@
+.CircleButton {
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+}
+
+.CircleButton > img {
+    max-width: 70px;
+}
