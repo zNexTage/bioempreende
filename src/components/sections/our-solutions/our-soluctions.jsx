@@ -9,7 +9,7 @@ import style from "./our-soluctions.module.css";
 
 const OurSolutions = () => {
     return (
-        <section className="px-4 pb-4 p-top" id="services">
+        <section className="px-4 pb-4 p-top bg-light" id="services">
             <h2 className="text-uppercase text-center mb-5">
                 Nossas <span className="text-bio-yellow">soluções</span>
             </h2>
