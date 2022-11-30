@@ -4,6 +4,7 @@ import Consultancy from "../../../assets/images/consultancy.svg";
 import SalesMarket4 from "../../../assets/images/sales-market-4.svg";
 import SmarthLeadership from "../../../assets/images/smart-leadership.svg";
 import style from "./our-soluctions.module.css";
+import FadeInSection from "../../fade-in-section/fade-in-section";
 
 
 
@@ -14,7 +15,7 @@ const OurSolutions = () => {
                 Nossas <span className="text-bio-yellow">soluções</span>
             </h2>
 
-            <Row className="mb-3">
+            <Row as={FadeInSection} className="mb-3">
                 <Col
                     className="text-center"
                     sm={12}
@@ -39,7 +40,7 @@ const OurSolutions = () => {
                 </Col>
             </Row>
 
-            <Row className="mt-5 mb-3">
+            <Row as={FadeInSection} className="mt-5 mb-3">
                 <Col
                     className="mt-5 mt-md-0"
                     xs={{ span: 12, order: 2 }}
@@ -66,7 +67,7 @@ const OurSolutions = () => {
                 </Col>
             </Row>
 
-            <Row className="mt-5 mb-3">
+            <Row as={FadeInSection} className="mt-5 mb-3">
                 <Col
                     className="text-center"
                     sm={12}
@@ -91,7 +92,7 @@ const OurSolutions = () => {
                 </Col>
             </Row>
 
-            <Row className="mt-5">
+            <Row as={FadeInSection} className="mt-5">
                 <Col
                     className="mt-5 mt-md-0"
                     xs={{ span: 12, order: 2 }}
