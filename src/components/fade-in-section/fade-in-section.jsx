@@ -11,24 +11,28 @@ const FadeInSection = ({ className, children, ...rest }) => {
         // check if IntersectionObserver is compatible with the user browser.
         if (!checkIntersectionObserverCompatibility()) {
             setVisible(true);
-
+            
             return;
         }
 
         /*Create an instance of IntersectionObserver with callback function.
-         The callback function will be called every time any DOM element 
-         registered to this observer changes its "status" 
-         (i.e. whenever you scroll, zoom or new stuff comes on screen)
+        The callback function will be called every time any DOM element 
+        registered to this observer changes its "status" 
+        (i.e. whenever you scroll, zoom or new stuff comes on screen)
         */
-        const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => setVisible(entry.isIntersecting));
+       const observer = new IntersectionObserver(entries => {
+           entries.forEach(entry => setVisible(entry.isIntersecting));
         });
+        
+        // save current ref value to a locally scoped variable
+        const elementRef = domRef.current;
 
         // define the DOM element to observe
-        observer.observe(domRef.current);
+        observer.observe(elementRef);
 
+        
         // when the component is disassembles, we remove the DOM observation
-        return () => observer.unobserve(domRef.current);
+        return () => observer.unobserve(elementRef);
     }, []);
 
     return (
