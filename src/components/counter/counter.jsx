@@ -7,7 +7,7 @@ const Counter = ({ start = 0, end, delay = 0, children }) => {
 
     return (
         <VisibilitySensor
-            
+            partialVisibility
             onChange={(isVisible) => {
                 // we just need the counter to be triggered when the user accesses the section for the first time.
                 if (isVisible && !startCounter) {
