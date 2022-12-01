@@ -1,6 +1,5 @@
 // Ref: https://dev.to/selbekk/how-to-fade-in-content-as-it-scrolls-into-view-10j4
 import { useEffect, useRef, useState } from "react";
-import checkIntersectionObserverCompatibility from "../../utils/check-intersection-observer-compatibility";
 import style from "./fade-in-section.module.css";
 
 const FadeInSection = ({ className, children, ...rest }) => {
@@ -8,13 +7,6 @@ const FadeInSection = ({ className, children, ...rest }) => {
     const domRef = useRef();
 
     useEffect(() => {
-        // check if IntersectionObserver is compatible with the user browser.
-        if (!checkIntersectionObserverCompatibility()) {
-            setVisible(true);
-            
-            return;
-        }
-
         /*Create an instance of IntersectionObserver with callback function.
         The callback function will be called every time any DOM element 
         registered to this observer changes its "status" 
@@ -29,7 +21,6 @@ const FadeInSection = ({ className, children, ...rest }) => {
 
         // define the DOM element to observe
         observer.observe(elementRef);
-
         
         // when the component is disassembles, we remove the DOM observation
         return () => observer.unobserve(elementRef);
