@@ -45,16 +45,14 @@ const Contact = () => {
                         </p>
 
                         <address className="mt-3">
-                            <a href={WHATSAPP_URL} className="text-white" target="__blank">
+                            <a href={WHATSAPP_URL} className="text-white d-block" target="__blank">
                                 <BsFillTelephoneFill title="Telefone/Celular" />
                                 +55 11 983823705
                             </a>
-                            <br />
-                            <a href="mailto:contato@bioempreende.com.br" className="text-white">
+                            <a href="mailto:contato@bioempreende.com.br" className="text-white d-block">
                                 <AiOutlineMail title="Email" className="me-1" />
                                 contato@bioempreende.com.br
                             </a>
-                            <br />
                             <div className="mt-2">
                                 <a
                                     href="https://www.instagram.com/bioempreende/"
