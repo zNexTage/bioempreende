@@ -12,7 +12,7 @@ import { WHATSAPP_URL } from "./utils/consts";
 
 function App() {
   return (
-    <main className="position-relative">
+    <main className="position-relative bg-light">
       <Header />
       <CountsInfo />
       <AboutUs />
