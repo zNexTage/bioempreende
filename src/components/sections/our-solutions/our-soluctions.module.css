@@ -1,3 +1,43 @@
-.OurSoluctionsImg  {
+.OurSoluctionsImg {
     max-width: 450px;
+}
+
+.SectionContainer {
+    min-height: 100vh;
+}
+
+.SectionContainer h3 {
+    color: #fff;
+}
+
+.SectionContainerYellow {
+    background-color: var(--bio-yellow);
+}
+
+.SectionContainerBlue {
+    background-color: var(--bio-dark-blue);
+}
+
+/* define the text color. only for left column (div) */
+.SectionContainerBlue > div {
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .SectionContainer {
+        height: 100%;
+    }
+
+    .SectionContainer h3 {
+        color: var(--bs-dark);
+    }
+
+    .SectionContainerYellow,
+    .SectionContainerBlue {
+        background-color: unset;
+    }
+
+    .SectionContainerBlue > div {
+        color: var(--bs-dark);
+    }
 }
