@@ -76,10 +76,12 @@ const LeftSection = ({ image, title, children }) => {
 
 const OurSolutions = () => {
     return (
-        <section className="" id="services">
-            <h2 className="text-uppercase text-center mt-5 mb-5">
-                Nossas <span className="text-bio-yellow">soluções</span>
-            </h2>
+        <section id="services">
+            <div className={`${style.OurSolutionsHeader} d-flex justify-content-center align-items-center`}>
+                <h2 className="text-uppercase text-center">
+                    Nossas <span className="text-bio-yellow">soluções</span>
+                </h2>
+            </div>
             <RightSection
                 image={{
                     src: HealthSpeeches,

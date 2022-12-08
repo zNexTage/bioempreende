@@ -1,3 +1,17 @@
+.OurSolutionsHeader {
+    /* The image used */
+    background: linear-gradient(0deg, rgba(254, 178, 9, 0.3), rgba(254, 178, 9, 0.3)), url("../../../assets/images/our-soluctions-wallpaper.jpg");
+
+    /* Set a specific height */
+    min-height: 350px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .OurSoluctionsImg {
     max-width: 450px;
 }
@@ -19,7 +33,7 @@
 }
 
 /* define the text color. only for left column (div) */
-.SectionContainerBlue > div {
+.SectionContainerBlue>div {
     color: #fff;
 }
 
@@ -37,7 +51,16 @@
         background-color: unset;
     }
 
-    .SectionContainerBlue > div {
+    .SectionContainerBlue>div {
         color: var(--bs-dark);
     }
+
+
+    /* 
+        Ref: https://www.w3schools.com/howto/howto_css_parallax.asp
+        Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed 
+    */
+    .OurSolutionsHeader {
+        background-attachment: scroll;
+      }
 }
