@@ -163,7 +163,7 @@ const OurSolutions = () => {
             <RightSection
                 image={{
                     src: Courses,
-                    alt: "Ilustração de uma pessoa explicando."
+                    alt: "Ilustração de uma pessoa apontando para uma lousa e explicando."
                 }}
                 title="Cursos">
                 <div className="text-justify fs-5">
