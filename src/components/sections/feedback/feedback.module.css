@@ -1,0 +1,16 @@
+.OurSolutionsBackoground {
+    background-image: url(../../../assets/images/our-soluctions-wallpaper.jpg);
+    position: relative;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+}
+
+.OurSolutionsBackoground::before{
+    background-color: rgba(0, 0, 0, 0.37);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}

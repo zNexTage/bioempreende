@@ -41,7 +41,7 @@ const Header = () => {
 
                             <p
                                 className="lead text-justify text-white mb-5">
-                                Somos uma consultoria estratégica que nasceu para fazer a sua empresa prosperar. Entregamos os mais avançados conhecimentos sobre vendas e desenvolvimento de negócios no mercado 4.0 de forma objetiva e aplicável.
+                                A BioEmpreende é uma consultoria estratégica que fortalece empresas de ciências da vida. Reconhecida especialmente por sua atuação com tecnologias emergentes como computação em nuvem, a internet das coisas (IoT) e a inteligência artificial (IA), a BioEmpreende conecta  cientistas, empresários e investidores, ampliando a sinergia entre os avanços da ciência e as novas possibilidades de negócios.
                             </p>
                             <Button
                                 as="a"

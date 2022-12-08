@@ -32,11 +32,19 @@ const OurSolutions = () => {
                     md={6}
                     className="mt-5 mt-md-0">
                     <h3 className="text-uppercase mb-3">
-                        Palestras: Saúde <span className="text-bio-yellow">4.0</span>
+                        Palestras
                     </h3>
-                    <p className="text-justify fs-5">
-                        Estamos vivendo a convergência entre as tecnologias exponenciais e as <strong className="text-bio-yellow">ciências da vida</strong>. Tecnologias como <strong className="text-bio-yellow">Internet das Coisas (IOT)</strong> e <strong className="text-bio-yellow">Inteligência Artificial</strong> estão impactando profundamente nossa realidade e o ambiente de negócios da saúde. Sua empresa está preparada para essas mudanças?
-                    </p>
+                    <ul className="text-justify fs-5 list-unstyled">
+                        <li className="mb-2">
+                            <strong className="text-bio-yellow">Ciências da Vida e Negócios 4.0:</strong> Visão sobre o potencial de mercado  gerado pelo avanço da biotecnologia e sua convergência com as tecnologias digitais.
+                        </li>
+                        <li className="mb-2">
+                            <strong className="text-bio-yellow">Internet das Coisas na Saúde:</strong>  Aplicação de IoT no segmento de saúde e os ganhos gerados para o ecossistema.
+                        </li>
+                        <li>
+                            <strong className="text-bio-yellow">Bioempreendedorismo:</strong> As tendências e os desafios desde a concepção até o lançamento da solução.
+                        </li>
+                    </ul>
                 </Col>
             </Row>
 
@@ -50,9 +58,26 @@ const OurSolutions = () => {
                     <h3 className="text-uppercase mb-3">
                         Consultoria e <span className="text-bio-yellow">transformação digital</span>
                     </h3>
-                    <p className="text-justify fs-5">
-                        Atuamos com consultoria para instituições públicas e privadas Levantamento dos gargalos e fragilidades das instituições e dos processos. E verificação de todas as possibilidades de aumento da eficiência, economia de recursos e melhoria dos serviços prestados ao cidadão através de soluções tecnológicas. Ofertas de cursos e capacitações necessárias para os membros da equipe e engajamento para garantir a plena utilização.
-                    </p>
+                    <ul className="text-justify fs-5">
+                        <li>
+                            Pesquisa de mercado para soluções inovadoras;
+                        </li>
+                        <li>
+                            Assessoria científica para Healthtechs;
+                        </li>
+                        <li>
+                            Digitalização de processos para ganho de eficiência, redução de custos e inserção de novas tecnologias;
+                        </li>
+                        <li>
+                            Suporte e treinamento para a implementação de novas tecnologias;
+                        </li>
+                        <li>
+                            Consultoria técnica para criação e desenvolvimento de startups de ciências da vida, desde a concepção até o mercado;
+                        </li>
+                        <li>
+                            Consultoria para Cidades Inteligentes: planejamento para a área de saúde, desenvolvimento de projetos e captação de recursos.
+                        </li>
+                    </ul>
                 </Col>
                 <Col
                     xs={{ span: 12, order: 1 }}
@@ -118,6 +143,58 @@ const OurSolutions = () => {
                         src={SmarthLeadership} />
                 </Col>
             </Row>
+            <FadeInSection>
+                <h3 className="text-uppercase mb-3">
+                    Cursos
+                </h3>
+                <Row>
+                    <Col
+                        sm={12}
+                        md={6}
+                        xl={6}>
+
+                        <div className="text-justify fs-5">
+                            <p>
+                                <strong className="text-bio-yellow">Vendas para Startups:</strong> Existe uma maneira sólida e sustentável de estruturar um processo de vendas capaz de levar sua empresa para outro patamar:
+                            </p>
+                            <ul>
+                                <li>
+                                    Estratégia de captação de leads;
+                                </li>
+                                <li>
+                                    Gestão de Funil de Vendas;
+                                </li>
+                                <li>
+                                    Estratégias de conversão;
+                                </li>
+                                <li>
+                                    Elaboração de speech de vendas personalizado para o seu segmento;
+                                </li>
+                                <li>
+                                    Ferramentas de automação.
+                                </li>
+                            </ul>
+                        </div>
+                    </Col>
+                    <Col
+                        sm={12}
+                        xl={6}
+                        md={6}
+                        className="mt-5 mt-md-0">
+                        <div className="text-justify fs-5">
+
+                            <p>
+                                <strong className="text-bio-yellow">Bioempreendedorismo:</strong> As tendências e os desafios deste mercado, desde a concepção até o lançamento da solução. O rápido crescimento da biotecnologia abre diversas oportunidades para empreendedores e investidores. Trazemos o conhecimento necessário para abraçar essas oportunidades.
+                            </p>
+                            <ul>
+                                <li>O que é BioEmpreendedorismo;</li>
+                                <li>Como lucrar nesse mercado;</li>
+                                <li>Como estruturar meu projeto e captar recursos.</li>
+                            </ul>
+                        </div>
+                    </Col>
+                </Row>
+            </FadeInSection>
         </section>
     )
 }

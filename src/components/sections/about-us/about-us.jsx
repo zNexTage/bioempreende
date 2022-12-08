@@ -19,10 +19,13 @@ const AboutUs = () => {
                         Sobre <span className="text-bio-yellow">nós</span>
                     </h2>
                     <p className="text-justify fs-5">
-                        Somos uma consultoria estratégica que nasceu para fazer a sua empresa prosperar. Entregamos os mais avançados conhecimentos sobre vendas e desenvolvimento de negócios no mercado 4.0 de forma objetiva e aplicável.
+                        Desde 2018, a BioEmpreende atua no mercado de <strong className="text-bio-blue">ciências da vida</strong>. A empresa conta com cases de sucesso, conectando inovadores de startups, grandes empresas e universidades no Brasil e no exterior.
                     </p>
                     <p className="text-justify fs-5">
-                        A BioEmpreende nasceu para ser sua parceira e apoiar o crescimento da sua empresa. Oferecemos cursos, palestras e consultoria para aliar Ciências da Vida e modelos de negócios disruptivos.
+                        Para vencer na era digital, você precisa de uma ambição ousada e uma execução impecável. E a BioEmpreende pode ajudar com ambos. Nossas <strong className="text-bio-blue">equipes multidisciplinares de especialistas </strong> trabalham lado a lado com você para projetar, construir e dimensionar negócios verdadeiramente transformadores.
+                    </p>
+                    <p className="text-justify fs-5">
+                        A Bioempreende tem o compromisso de oferecer orientação inovadora em <strong className="text-bio-blue"> biobusiness </strong> para todos os atores envolvidos nesse novo e dinâmico ambiente de negócios.
                     </p>
 
                     <Row className="mt-5">
