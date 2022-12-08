@@ -3,6 +3,7 @@ import HealthSpeeches from "../../../assets/images/health-speeches.svg";
 import Consultancy from "../../../assets/images/consultancy.svg";
 import SalesMarket4 from "../../../assets/images/sales-market-4.svg";
 import SmarthLeadership from "../../../assets/images/smart-leadership.svg";
+import Courses from "../../../assets/images/courses.svg";
 import style from "./our-soluctions.module.css";
 import FadeInSection from "../../fade-in-section/fade-in-section";
 
@@ -143,46 +144,49 @@ const OurSolutions = () => {
                         src={SmarthLeadership} />
                 </Col>
             </Row>
-            <FadeInSection>
-                <h3 className="text-uppercase mb-3">
-                    Cursos
-                </h3>
-                <Row>
-                    <Col
-                        sm={12}
-                        md={6}
-                        xl={6}>
+
+            <Row as={FadeInSection} className="mt-5 mb-3">
+                <Col
+                    className="d-flex justify-content-center align-items-center"
+                    sm={12}
+                    md={6}
+                    xl={6}>
+                    <img
+                        className={`${style.OurSoluctionsImg} w-100`}
+                        alt="Ilustração de uma pessoa explicando."
+                        src={Courses} />
+                </Col>
+                <Col
+                    sm={12}
+                    xl={6}
+                    md={6}
+                    className="mt-5 mt-md-0">
+                    <h3 className="text-uppercase mb-3">
+                        Cursos
+                    </h3>
+                    <div className="text-justify fs-5">
+                        <p>
+                            <strong className="text-bio-yellow">Vendas para Startups:</strong> Existe uma maneira sólida e sustentável de estruturar um processo de vendas capaz de levar sua empresa para outro patamar:
+                        </p>
+                        <ul>
+                            <li>
+                                Estratégia de captação de leads;
+                            </li>
+                            <li>
+                                Gestão de Funil de Vendas;
+                            </li>
+                            <li>
+                                Estratégias de conversão;
+                            </li>
+                            <li>
+                                Elaboração de speech de vendas personalizado para o seu segmento;
+                            </li>
+                            <li>
+                                Ferramentas de automação.
+                            </li>
+                        </ul>
 
                         <div className="text-justify fs-5">
-                            <p>
-                                <strong className="text-bio-yellow">Vendas para Startups:</strong> Existe uma maneira sólida e sustentável de estruturar um processo de vendas capaz de levar sua empresa para outro patamar:
-                            </p>
-                            <ul>
-                                <li>
-                                    Estratégia de captação de leads;
-                                </li>
-                                <li>
-                                    Gestão de Funil de Vendas;
-                                </li>
-                                <li>
-                                    Estratégias de conversão;
-                                </li>
-                                <li>
-                                    Elaboração de speech de vendas personalizado para o seu segmento;
-                                </li>
-                                <li>
-                                    Ferramentas de automação.
-                                </li>
-                            </ul>
-                        </div>
-                    </Col>
-                    <Col
-                        sm={12}
-                        xl={6}
-                        md={6}
-                        className="mt-5 mt-md-0">
-                        <div className="text-justify fs-5">
-
                             <p>
                                 <strong className="text-bio-yellow">Bioempreendedorismo:</strong> As tendências e os desafios deste mercado, desde a concepção até o lançamento da solução. O rápido crescimento da biotecnologia abre diversas oportunidades para empreendedores e investidores. Trazemos o conhecimento necessário para abraçar essas oportunidades.
                             </p>
@@ -192,9 +196,9 @@ const OurSolutions = () => {
                                 <li>Como estruturar meu projeto e captar recursos.</li>
                             </ul>
                         </div>
-                    </Col>
-                </Row>
-            </FadeInSection>
+                    </div>
+                </Col>
+            </Row>
         </section>
     )
 }
