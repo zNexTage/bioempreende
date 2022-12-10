@@ -94,6 +94,7 @@ const SwiperCases = () => {
 
     return (
         <Swiper
+            className='mt-5'
             pagination={{
                 clickable: true,
             }}
