@@ -1,46 +1,19 @@
-import { Col, Container, Row } from "react-bootstrap";
-import LsiTecImg from "../../../assets/icons/lsitec.png";
-import IncloudeImg from "../../../assets/icons/incloude.png";
-import style from "./our-cases.module.css";
+import { Container } from "react-bootstrap";
+import SwiperCases from "../../swiper-cases";
 
 const OurCases = () => {
     return (
-        <section id="our-cases" className="bg-bio-dark-blue px-4 pb-4 p-top text-white mt-4">
+        <section
+            id="our-cases"
+            className="bg-bio-dark-blue px-4 pb-4 p-top text-white mt-4">
             <Container fluid>
                 <h2 className="text-uppercase mb-4">
                     Nossos <span className="text-bio-yellow">cases</span>
                 </h2>
-                <Row>
-                    <Col xl={12}>
-                        <p className="lead text-justify">
-                            Nossa consultoria possui cases nacionais e internacionais com empresas, startups e instituições de pesquisa.
-                        </p>
-                    </Col>
-                    <Col xl={12} className="mt-5">
-                        <Row className="text-center">
-                            <Col
-                                className="p-3"
-                                sm={12}
-                                md={6}
-                                xl={6}>
-                                <img
-                                    alt="Logo LSI Tec"
-                                    className={`${style.OurCasesImage} w-100`}
-                                    src={LsiTecImg} />
-                            </Col>
-                            <Col
-                                className="p-3"
-                                sm={12}
-                                md={6}
-                                xl={6}>
-                                <img
-                                    alt="Logo Incloude"
-                                    className={`${style.OurCasesImage} w-100`}
-                                    src={IncloudeImg} />
-                            </Col>
-                        </Row>
-                    </Col>
-                </Row>
+                <p className="lead text-justify">
+                    Nossa consultoria possui cases nacionais e internacionais com empresas, startups e instituições de pesquisa.
+                </p>
+                <SwiperCases />
             </Container>
         </section>
     )
