@@ -24,9 +24,74 @@ import HisaLogo from "../../assets/images/our-cases/hisa-logo.jpg";
 import VivoLogo from "../../assets/images/our-cases/vivo-logo.png";
 
 const SwiperCases = () => {
-    /**
-     * TODO: Create an array with all images with alt text
-     */
+    const logoImages = [
+        {
+            src: AlticeForumLogo,
+            alt: "Logo Altice Forum Braga",
+            title: "Logo Altice Forum Braga",
+        },
+        {
+            src: EaiLogo,
+            alt: "Logo EAI (European Alliance for Innovation) - Research Meets Innovation",
+            title: "Logo EAI (European Alliance for Innovation) - Research Meets Innovation",
+        },
+        {
+            src: IotDayLogo,
+            alt: "Logo IOT Day SP 2018",
+            title: "Logo IOT Day SP 2018",
+        },
+        {
+            src: UPortLogo,
+            alt: "Logo U.Port inovação",
+            title: "Logo U.Port inovação",
+        },
+        {
+            src: CampusMobileLogo,
+            alt: "Logo Campus Mobile",
+            title: "Logo Campus Mobile",
+        },
+        {
+            src: EricssonLogo,
+            alt: "Logo Ericsson",
+            title: "Logo Ericsson",
+        },
+        {
+            src: GallagherLogo,
+            alt: "Logo Gallagher convention centre",
+            title: "Logo Gallagher convention centre",
+        },
+        {
+            src: UspLogo,
+            alt: "Logo USP (Universidade de São Paulo)",
+            title: "Logo USP (Universidade de São Paulo)",
+        },
+        {
+            src: FeiLogo,
+            alt: "Logo centro universitário FEI (Fundação Educacional Inaciana 'Padre Sabóia de Medeiros')",
+            title: "Logo centro universitário FEI (Fundação Educacional Inaciana 'Padre Sabóia de Medeiros')",
+        },
+        {
+            src: FisioCloud,
+            alt: "Logo FisioCloud",
+            title: "Logo FisioCloud",
+        },
+        {
+            src: SmartCity,
+            alt: "Logo Smart City 360° The gateway to innovation",
+            title: "Logo Smart City 360° The gateway to innovation",
+        },
+        {
+            src: HisaLogo,
+            alt: "Logo Healthcare Innovation Summit Africa 2018",
+            title: "Logo Healthcare Innovation Summit Africa 2018",
+        },
+        {
+            src: VivoLogo,
+            alt: "Logo Vivo",
+            title: "Logo Vivo",
+        },
+    ];
+
     return (
         <Swiper
             pagination={{
@@ -58,79 +123,15 @@ const SwiperCases = () => {
             loop={true}
             modules={[Pagination, Autoplay]}
         >
-            <SwiperSlide>
-                <div className={style.ImgLogoContainer}>
-                    <img className={`${style.ImgLogo}`} src={AlticeForumLogo} />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div className={style.ImgLogoContainer}>
-                    <img className={`${style.ImgLogo}`} src={EaiLogo} />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div className={style.ImgLogoContainer}>
-                    <img className={`${style.ImgLogo}`} src={IotDayLogo} />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div className={style.ImgLogoContainer}>
-                    <img className={`${style.ImgLogo}`} src={UPortLogo} />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div className={style.ImgLogoContainer}>
-                    <img className={`${style.ImgLogo}`} src={CampusMobileLogo} />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div className={style.ImgLogoContainer}>
-                    <img className={`${style.ImgLogo}`} src={EricssonLogo} />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div className={style.ImgLogoContainer}>
-                    <img className={`${style.ImgLogo}`} src={GallagherLogo} />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div className={style.ImgLogoContainer}>
-                    <img className={`${style.ImgLogo}`} src={UspLogo} />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div className={style.ImgLogoContainer}>
-                    <img className={`${style.ImgLogo}`} src={FeiLogo} />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div className={style.ImgLogoContainer}>
-                    <img
-                        className={`${style.ImgLogo}`}
-                        src={FisioCloud} />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div className={style.ImgLogoContainer}>
-                    <img
-                        className={`${style.ImgLogo}`}
-                        src={SmartCity} />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div className={style.ImgLogoContainer}>
-                    <img
-                        className={`${style.ImgLogo}`}
-                        src={HisaLogo} />
-                </div>
-            </SwiperSlide>
-            <SwiperSlide>
-                <div className={style.ImgLogoContainer}>
-                    <img
-                        className={`${style.ImgLogo}`}
-                        src={VivoLogo} />
-                </div>
-            </SwiperSlide>
+            {
+                logoImages.map((logo, index) => (
+                    <SwiperSlide key={index}>
+                        <div className={style.ImgLogoContainer}>
+                            <img className={`${style.ImgLogo}`} {...logo} />
+                        </div>
+                    </SwiperSlide>
+                ))
+            }
         </Swiper>
     )
 }
