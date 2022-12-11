@@ -41,7 +41,6 @@ const Contact = () => {
                             Fale conosco
                         </h3>
                         <p className="lead">
-                            {/*TODO: Correct this phrase */}
                             Será um prazer lhe atender
                         </p>
 
