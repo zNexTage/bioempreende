@@ -91,6 +91,7 @@ const SwiperCases = () => {
             title: "Logo Vivo",
         },
     ];
+    //TODO: Change color of pagination bullets
 
     return (
         <Swiper
@@ -125,10 +126,13 @@ const SwiperCases = () => {
             modules={[Pagination, Autoplay]}
         >
             {
-                logoImages.map((logo, index) => (
+                logoImages.map(({ alt, src, title }, index) => (
                     <SwiperSlide key={index}>
                         <div className={style.ImgLogoContainer}>
-                            <img className={`${style.ImgLogo}`} {...logo} />
+                            <img className={`${style.ImgLogo}`}
+                                alt={alt}
+                                title={title}
+                                src={src} />
                         </div>
                     </SwiperSlide>
                 ))
