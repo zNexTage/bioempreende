@@ -30,3 +30,14 @@
     align-items: center;
     margin-bottom: 50px;
 }
+
+/* target the active bullet */
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: var(--bio-yellow);
+    opacity: 1;
+}
+
+/* target all bullets */
+.swiper-pagination-bullet {
+    background-color: #FFF;
+}

@@ -91,13 +91,12 @@ const SwiperCases = () => {
             title: "Logo Vivo",
         },
     ];
-    //TODO: Change color of pagination bullets
 
     return (
         <Swiper
             className='mt-5'
             pagination={{
-                clickable: true,
+                clickable: true,                
             }}
             autoplay={{
                 delay: 2500,
