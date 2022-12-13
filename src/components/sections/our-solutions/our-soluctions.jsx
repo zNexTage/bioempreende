@@ -141,7 +141,7 @@ const OurSolutions = () => {
                 }}
                 title={<span>Vendas no <span className="text-bio-blue">mercado 4.0</span></span>}
             >
-                <p className="text-justify fs-5">
+                <p className="text-justify fs-5 m-0">
                     Quer expandir seu negócio de forma inteligente e eficiente? Temos as melhores soluções para empresas da área da saúde e Startups que vendem inovação. Conhecimento estruturado de forma objetiva e aplicável.
                 </p>
             </RightSection>
@@ -154,7 +154,7 @@ const OurSolutions = () => {
                 title={<span>Liderança <span className="text-bio-yellow">inteligente</span></span>}
 
             >
-                <p className="text-justify fs-5">
+                <p className="text-justify fs-5 m-0">
                     Entenda os desafios e oportunidades que o novo mercado traz e guie seu time nesse caminho. Como criar estratégias claras, medir o progresso e implementar melhorias.
                 </p>
 
@@ -169,28 +169,30 @@ const OurSolutions = () => {
                 }}
                 title="Cursos">
                 <div className="text-justify fs-5">
-                    <p>
-                        <strong className="text-bio-yellow">Vendas para Startups:</strong> Existe uma maneira sólida e sustentável de estruturar um processo de vendas capaz de levar sua empresa para outro patamar:
-                    </p>
-                    <ul>
-                        <li>
-                            Estratégia de captação de leads;
-                        </li>
-                        <li>
-                            Gestão de Funil de Vendas;
-                        </li>
-                        <li>
-                            Estratégias de conversão;
-                        </li>
-                        <li>
-                            Elaboração de speech de vendas personalizado para o seu segmento;
-                        </li>
-                        <li>
-                            Ferramentas de automação.
-                        </li>
-                    </ul>
+                    <div>
+                        <p>
+                            <strong className="text-bio-yellow">Vendas para Startups:</strong> Existe uma maneira sólida e sustentável de estruturar um processo de vendas capaz de levar sua empresa para outro patamar:
+                        </p>
+                        <ul>
+                            <li>
+                                Estratégia de captação de leads;
+                            </li>
+                            <li>
+                                Gestão de Funil de Vendas;
+                            </li>
+                            <li>
+                                Estratégias de conversão;
+                            </li>
+                            <li>
+                                Elaboração de speech de vendas personalizado para o seu segmento;
+                            </li>
+                            <li>
+                                Ferramentas de automação.
+                            </li>
+                        </ul>
+                    </div>
 
-                    <div className="text-justify fs-5">
+                    <div>
                         <p>
                             <strong className="text-bio-yellow">Bioempreendedorismo:</strong> As tendências e os desafios deste mercado, desde a concepção até o lançamento da solução. O rápido crescimento da biotecnologia abre diversas oportunidades para empreendedores e investidores. Trazemos o conhecimento necessário para abraçar essas oportunidades.
                         </p>
