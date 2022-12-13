@@ -35,7 +35,7 @@ const Header = () => {
                     <Row>
                         <Col sm={12} md={6} xl={6} className="align-self-center">
                             <img
-                                alt="Logo da BioEmpreende"
+                                alt="BioEmpreende - Inovação, Empreendedorismo e Ciências da vida"
                                 src={BioEmpreendeLogo}
                                 className="w-100 mb-0 mb-md-5 mb-lg-5" />
 

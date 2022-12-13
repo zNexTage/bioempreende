@@ -11,6 +11,8 @@ import FadeInSection from "../../fade-in-section/fade-in-section";
 const RightSection = ({ image, title, children }) => {
     // Texts is in right and image in left
 
+    const { alt, src, ...imgRest } = image;
+
     return (
         <FadeInSection className={'bg-light my-4 my-md-0 my-lg-0'}>
             <Row
@@ -22,7 +24,9 @@ const RightSection = ({ image, title, children }) => {
                     xl={6}>
                     <img
                         className={`${style.OurSoluctionsImg} mb-5 w-100 m-auto`}
-                        {...image}
+                        alt={alt}
+                        src={src}
+                        {...imgRest}
                     />
 
                     <h3 className="text-uppercase">
@@ -43,6 +47,8 @@ const RightSection = ({ image, title, children }) => {
 
 const LeftSection = ({ image, title, children }) => {
     // texts is in left and image in right
+    const { alt, src, ...imgRest } = image;
+
     return (
         <FadeInSection className={'bg-light my-4 my-md-0 my-lg-0'}>
             <Row
@@ -64,7 +70,10 @@ const LeftSection = ({ image, title, children }) => {
                     className={`d-flex flex-column align-self-center text-center`}>
                     <img
                         className={`${style.OurSoluctionsImg} w-100 mb-5 m-auto`}
-                        {...image} />
+                        alt={alt}
+                        src={src}
+                        {...imgRest}
+                    />
                     <h3 className="text-uppercase mb-3">
                         {title}
                     </h3>

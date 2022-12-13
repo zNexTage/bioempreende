@@ -31,7 +31,7 @@ const AboutUs = () => {
                     <Row className="mt-5">
                         <Col xl={4} md={4} sm={12} className="text-center mt-4">
                             <img
-                                alt=""
+                                alt="Ícone de um cérebro"
                                 src={Knowledge}
                                 className={style.BioIcons} />
                             <p className="fs-5 m-0 mt-2">
@@ -40,7 +40,7 @@ const AboutUs = () => {
                         </Col>
                         <Col xl={4} md={4} sm={12} className="text-center mt-4">
                             <img
-                                alt=""
+                                alt="Ícone de um quadro com um gráfico"
                                 src={Strategy}
                                 className={style.BioIcons} />
                             <p className="fs-5 m-0 mt-2">
@@ -49,7 +49,7 @@ const AboutUs = () => {
                         </Col>
                         <Col xl={4} md={4} sm={12} className="text-center mt-4">
                             <img
-                                alt=""
+                                alt="Ícone de um gráfico"
                                 src={Results}
                                 className={style.BioIcons} />
                             <p className="fs-5 m-0 mt-2">
@@ -65,7 +65,10 @@ const AboutUs = () => {
                     md={{ span: 6, order: 2 }}
                     xl={{ span: 6, order: 2 }}
                     className="d-flex justify-content-center align-items-center">
-                    <img src={AboutUsImg} className={`w-100 my-5 ${style.AboutUsImage}`} />
+                    <img    
+                        alt="Ilustração contendo três pessoas: dois homens nas laterais e uma mulher no centro."
+                        src={AboutUsImg}
+                        className={`w-100 my-5 ${style.AboutUsImage}`} />
                 </Col>
             </Row>
         </section>
