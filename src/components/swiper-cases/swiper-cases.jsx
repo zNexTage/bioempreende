@@ -128,7 +128,8 @@ const SwiperCases = () => {
                 logoImages.map(({ alt, src, title }, index) => (
                     <SwiperSlide key={index}>
                         <div className={style.ImgLogoContainer}>
-                            <img className={`${style.ImgLogo}`}
+                            <img 
+                                className={`${style.ImgLogo}`}
                                 alt={alt}
                                 title={title}
                                 src={src} />
