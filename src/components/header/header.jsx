@@ -5,7 +5,7 @@ import { Button, Col, Container, Row } from 'react-bootstrap';
 import { WHATSAPP_URL } from '../../utils/consts';
 import Lottie from "lottie-react";
 import DnaBio from "../../assets/lottiefiles/dna-bio.json";
-
+import style from "./header.module.css";
 
 
 const Header = () => {
@@ -30,7 +30,7 @@ const Header = () => {
                 </Navbar.Collapse>
             </Navbar>
 
-            <section className="py-5 px-sm-2 px-md-3 px-lg-5 bg-bio-dark-blue">
+            <section className={`py-5 px-sm-2 px-md-3 px-lg-5 bg-bio-dark-blue ${style.HeaderSection}`}>
                 <Container className='mt-5 mb-2' fluid>
                     <Row>
                         <Col sm={12} md={6} xl={6} className="align-self-center">
@@ -40,7 +40,7 @@ const Header = () => {
                                 className="w-100 mb-0 mb-md-5 mb-lg-5" />
 
                             <p
-                                className="lead text-justify text-white mb-5">
+                                className="lead text-justify text-white mb-5 mt-5 mt-md-0 mt-lg-0">
                                 A BioEmpreende é uma consultoria estratégica que fortalece empresas de ciências da vida. Reconhecida especialmente por sua atuação com tecnologias emergentes como computação em nuvem, a internet das coisas (IoT) e a inteligência artificial (IA), a BioEmpreende conecta  cientistas, empresários e investidores, ampliando a sinergia entre os avanços da ciência e as novas possibilidades de negócios.
                             </p>
                             <Button
