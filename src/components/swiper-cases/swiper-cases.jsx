@@ -22,6 +22,7 @@ import FisioCloud from "../../assets/images/our-cases/fiso-cloud-logo.svg";
 import SmartCity from "../../assets/images/our-cases/smart-city-logo.png";
 import HisaLogo from "../../assets/images/our-cases/hisa-logo.jpg";
 import VivoLogo from "../../assets/images/our-cases/vivo-logo.png";
+import BioexpertNetwork from "../../assets/images/our-cases/bioexpert-network-logo.jpg";
 
 const SwiperCases = () => {
     const logoImages = [
@@ -90,6 +91,11 @@ const SwiperCases = () => {
             alt: "Logo Vivo",
             title: "Logo Vivo",
         },
+        {
+            src: BioexpertNetwork,
+            alt: "Logo Bioexpert Network",
+            title: "Logo Bioexpert Network",
+        }
     ];
 
     return (
