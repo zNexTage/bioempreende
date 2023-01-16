@@ -1,3 +1,14 @@
+# Bioempreende
+
+Modernized version of the [BioEmpreende] (https://bioempreende.com.br/) website. The site was developed using the following languages/technologies: HTML5, CSS3 and React.js.
+
+
+
+# Versions
+
+Node.js: v18.12.1;
+NPM: 8.19.2.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
