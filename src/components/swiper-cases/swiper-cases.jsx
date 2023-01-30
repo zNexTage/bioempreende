@@ -23,6 +23,7 @@ import SmartCity from "../../assets/images/our-cases/smart-city-logo.png";
 import HisaLogo from "../../assets/images/our-cases/hisa-logo.jpg";
 import VivoLogo from "../../assets/images/our-cases/vivo-logo.png";
 import BioexpertNetwork from "../../assets/images/our-cases/bioexpert-network-logo.jpg";
+import DnaUsp from "../../assets/images/our-cases/dna-usp.jpg";
 
 const SwiperCases = () => {
     const logoImages = [
@@ -95,6 +96,11 @@ const SwiperCases = () => {
             src: BioexpertNetwork,
             alt: "Logo Bioexpert Network",
             title: "Logo Bioexpert Network",
+        },
+        {
+            src: DnaUsp,
+            alt: "Logo DNA USP",
+            title: "Logo DNA USP",
         }
     ];
 
